@@ -89,3 +89,4 @@ def finalize_paper(request,paper_id):
             return JsonResponse({"message": f"Error finalizing paper: {str(e)}"}, status=500)
 
         
+pappu = 5
